@@ -1,7 +1,7 @@
 # hls_vod_docoder
 
 Usage : <br><br>
-<code>python encode_video.py video_path output_path --subtitles_path subtitles_path</code>
+<code>python hls.py video_path output_path --subtitles_path subtitles_path</code>
 
 <br><br>
 
