@@ -44,7 +44,6 @@ def encode_video(video_path, output_path, subtitles_path=None):
             f'#EXT-X-STREAM-INF:BANDWIDTH={bitrates[i] * 1000},RESOLUTION={output_path}/{resolution}x{int(resolution * 9 / 16)}\n'
             f'{output_path}/{resolution}p.m3u8\n'
         )
-
     with open('master.m3u8', 'w') as f:
         f.write(master_playlist)
 
